@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Hack Game VIP</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #00ffff;
+      text-shadow: 0 0 10px #0ff;
+    }
+    .section {
+      padding: 20px;
+    }
+    .section h2 {
+      border-bottom: 1px solid #0ff;
+      padding-bottom: 5px;
+      color: #0ff;
+    }
+    .feature {
+      background: #111;
+      border: 1px solid #00ffff;
+      border-radius: 10px;
+      margin: 10px 0;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 8px #0ff3;
+    }
+    .feature:hover {
+      box-shadow: 0 0 15px #00ffff;
+    }
+    .feature .info {
+      flex-grow: 1;
+    }
+    .feature-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #00ffff;
+    }
+    .feature-desc {
+      font-size: 13px;
+      color: #ccc;
+    }
+    .toggle-btn {
+      background-color: #333;
+      border: 1px solid #00ffff;
+      color: #00ffff;
+      padding: 6px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .toggle-btn.active {
+      background-color: #00ffff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+<h1>MENU HACK GAME SIÊU VIP</h1>
+
+<div class="section">
+  <h2>🎯 Chức Năng Game</h2>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Aimbot</div>
+      <div class="feature-desc">Tự động ngắm vào đầu kẻ địch</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Aimlock</div>
+      <div class="feature-desc">Kéo Khoá Đầu (Aim)</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Tốc Độ Cao</div>
+      <div class="feature-desc">Tăng tốc độ di chuyển màn hình</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Godmode</div>
+      <div class="feature-desc">Buff FPS trong game</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">No Recoil</div>
+      <div class="feature-desc">Loại bỏ giật khi bắn</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🛡️ Nâng Cao</h2>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Mở Khóa Skin</div>
+      <div class="feature-desc">Mở tất cả skin trong game</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Kim Cương Vô Hạn</div>
+      <div class="feature-desc">Không giới hạn kim cương</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Giảm Ping</div>
+      <div class="feature-desc">Giảm độ trễ khi chơi game</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Đêm Sáng</div>
+      <div class="feature-desc">Nhìn rõ trong đêm tối</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+
+  <div class="feature">
+    <div class="info">
+      <div class="feature-title">Anti-Ban</div>
+      <div class="feature-desc">Giảm nguy cơ bị khóa tài khoản</div>
+    </div>
+    <button class="toggle-btn" onclick="toggle(this)">Bật</button>
+  </div>
+</div>
+
+<script>
+  function toggle(btn) {
+    btn.classList.toggle("active");
+    btn.textContent = btn.classList.contains("active") ? "Đã Bật" : "Bật";
+  }
+</script>
+
+</body>
+</html>
